@@ -5,9 +5,9 @@ String repository="parametrik deger"
 
 pipeline {
     agent any
-    tools{
+    // tools{
     // maven 'Maven3.8.8'
-    }
+   // }
     environment{
     DOCKERHUB_CREDENTIALS=credentials('emirhan-dockerhub')
     }
